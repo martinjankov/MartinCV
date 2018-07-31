@@ -1,0 +1,10 @@
+.navbar-toggle{
+    margin: 0px;
+    display: none;
+}
+.navbar-toggle span{
+    background-color: #fff;
+}
+.sticky .navbar-toggle span{
+    background-color: #4776E6;
+}

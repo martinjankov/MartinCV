@@ -1,0 +1,7 @@
+header .logo-colored,
+header.sticky .logo-white{
+  display: none;
+}
+header.sticky .logo-colored{
+  display: inline-block;
+}

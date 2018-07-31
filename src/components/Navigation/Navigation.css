@@ -1,0 +1,63 @@
+header a{
+    color: #fff;
+    font-family: roboto;
+    font-weight: 400;
+}  
+.op-nav a {
+    margin-top: 8px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    position: relative;
+}
+.op-nav a:focus{
+    background-color: transparent;
+    color: #fff;
+}
+.op-nav a:hover{
+    background-color: transparent;
+    color: #fff;
+}
+.op-nav a::before,
+.op-nav a::after{
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    position: absolute;
+    width: 0px;
+    transition: 0.3s all;
+    -webkit-transition:0.3s all;
+    -moz-transition:0.3s all;
+    -o-transition:0.3s all;
+}
+.op-nav a::before {
+    right: 0;
+    top: 0;
+}
+.op-nav a::after {
+    bottom: 0;
+    left: 0;
+}
+.op-nav a:hover::before,
+.op-nav a:hover::after,
+.op-nav a.active::before,
+.op-nav a.active::after{
+    width: 20px;
+}
+
+.sticky .op-nav a::before,
+.sticky .op-nav a::after{
+    background-color: #6050d6;
+}
+.sticky .op-nav a:hover{
+    color: #6050d6;
+}
+.sticky a,.sticky a:focus{
+    color: #6050d6
+}
+
+.nav li {
+    display: inline-block;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: transparent;
+}
