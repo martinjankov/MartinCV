@@ -13,10 +13,12 @@ import { Preloader } from './Preloader';
 import { NavbarButton } from './NavbarButton';
 import { Banner } from './Banner';
 import { SocialIcon } from './SocialIcon';
+import { ProfileBox } from './ProfileBox';
+import { AboutMeSection } from './AboutMeSection';
 
 export {
     CoverImage, Footer, Header, Logo,
     Navigation, ProfileImage, ProgressBar, ProjectBox,
     ScrollTop, SkillsList, SkillsItem, Preloader, NavbarButton,
-    Banner, SocialIcon
+    Banner, SocialIcon, ProfileBox, AboutMeSection
 }

@@ -17,22 +17,7 @@ const Navigation = () => {
                 <Link to="#skills" data-scroll="">Skills</Link>
             </li>
             <li>
-                <Link to="#features">Fetures</Link>
-            </li>
-            <li>
-                <Link to="#my-team">Team</Link>
-            </li>
-            <li>
                 <Link to="#works" data-scroll="">Works</Link>
-            </li>
-            <li>
-                <Link to="#testimonials" data-scroll="">Testimonials</Link>
-            </li>
-            <li>
-                <Link to="#pricing" data-scroll="">Pricing</Link>
-            </li>
-            <li>
-                <Link to="#blog">Blog</Link>
             </li>
             <li>
                 <Link to="#contact" data-scroll="">Contact</Link>

@@ -17,28 +17,19 @@ export const Banner = ({imgUrl, userName, shortDescription}) => {
                             <Router>
                                 <ul className="social-link dark mb-30">
                                     <li>
-                                        <SocialIcon link='#' icon='fa fa-facebook'/>
+                                        <SocialIcon link='https://www.linkedin.com/in/martinjankov/' icon='fa fa-linkedin'/>
                                     </li>
                                     <li>
-                                        <SocialIcon link='#' icon='fa fa-twitter'/>
+                                        <SocialIcon link='https://twitter.com/mjba_fenix' icon='fa fa-twitter'/>
                                     </li>
                                     <li>
-                                        <SocialIcon link='#' icon='fa fa-vimeo'/>
-                                    </li>
-                                    <li>
-                                        <SocialIcon link='#' icon='fa fa-dribbble'/>
-                                    </li>
-                                    <li>
-                                        <SocialIcon link='#' icon='fa fa-instagram'/>
-                                    </li>
-                                    <li>
-                                        <SocialIcon link='#' icon='fa fa-google-plus'/>
+                                        <SocialIcon link='https://www.instagram.com/martin.jankov.7/' icon='fa fa-instagram'/>
                                     </li>
                                 </ul>
                             </Router>
                             <Router>
                                 <div>
-                                    <Link to="#" className="btn btn-lg pink">
+                                    <Link to="#about" className="btn btn-lg pink">
                                         About Me
                                     </Link>
                                     <Link to="#" className="btn btn-lg black">

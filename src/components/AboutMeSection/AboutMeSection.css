@@ -1,0 +1,60 @@
+.about .box {
+    text-align: center;
+}
+
+.about .box .overview-img {
+    border-radius: 100%;
+    color: #6050d6;
+    display: inline-block;
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+
+.about .box hr {
+    background: #6050d6 none repeat scroll 0 0;
+    display: block;
+    height: 3px;
+    margin: 0 auto;
+    width: 40px;
+}
+
+.about .box h2 {
+    color: #606060;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.about .box p {
+    color: #909090;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.about .equal-height-row {
+    margin-top: 55px;
+}
+
+.padding-equal.about .cta-button a {
+    background: #6050d6 none repeat scroll 0 0;
+    border-radius: 40px;
+    box-shadow: none;
+    height: auto;
+    line-height: 30px;
+    margin-right: 20px;
+    margin-top: 32px;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    width: 180px;
+    color: #fff;
+}
+
+.padding-equal.about .cta-button a:hover {
+    background-color: #0085d0 !important;
+    color: #fff !important;
+}
