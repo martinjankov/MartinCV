@@ -1,0 +1,22 @@
+.skills .c100 {
+    margin-top: 25px;
+}
+
+.skills .c100::after {
+    /* background-color: #6050d6; */
+}
+
+.skills .c100 .bar, .skills .c100 .fill {
+    border-color: #4776e6;
+}
+
+.skills .c100:hover>span, .skills .c100 span {
+    color: #4776e6;
+}
+
+.skills .fiels {
+    color: #666;
+    font-weight: bold;
+    margin-top: 17px;
+    text-align: center;
+}

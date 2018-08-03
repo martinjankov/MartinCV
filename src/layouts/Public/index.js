@@ -7,7 +7,7 @@ import './Public.css';
 
 const Public = ({children}) => {
     return (
-        <div className="wrapper">
+        <div className="wrapper" id="top">
             {children} 
         </div>
     )

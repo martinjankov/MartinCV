@@ -1,0 +1,33 @@
+.row-label {
+    font-weight: bold;
+    text-align: left;
+    font-size: 18px;
+    position: relative;
+}
+
+.c-row {
+    /* border-bottom: 1px solid #ccc; */
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.row-label:after, .row-label:before {
+    content: " ";
+    position: absolute;
+    bottom: -10px;
+    background: #ddd;
+}
+
+.row-label:before {
+    left: 0;
+    height: 4px;
+    width: 150px;
+    background: #008ad5;
+}
+
+.row-label:after {
+    left: 155px;
+    height: 4px;
+    width: 80px;
+    background: #03a9f4;
+}

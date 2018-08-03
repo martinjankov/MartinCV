@@ -132,10 +132,10 @@ hr {
   opacity: 0.2;
 }
 .gradients {
-  background-image: -moz-linear-gradient(0deg, #00005d 0%, #e7adfb 100%) !important;
-  background-image: -webkit-linear-gradient(0deg, #00005d 0%, #e7adfb 100%) !important;
-  background-image: -o-linear-gradient(0deg, #00005d 0%, #e7adfb 100%) !important;
-  background-image: -ms-linear-gradient(0deg, #00005d 0%, #e7adfb 100%) !important;
+  background-image: -moz-linear-gradient(0deg, #00005d 0%, #6050d6 100%) !important;
+  background-image: -webkit-linear-gradient(0deg, #00005d 0%, #6050d6 100%) !important;
+  background-image: -o-linear-gradient(0deg, #00005d 0%, #6050d6 100%) !important;
+  background-image: -ms-linear-gradient(0deg, #00005d 0%, #6050d6 100%) !important;
 }
 .title-sec {
   margin: 0 auto;

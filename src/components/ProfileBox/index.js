@@ -18,7 +18,7 @@ export const ProfileBox = ({coverImg, profileImg, name, workPosition, age, email
                     <span className="title"> Age </span> {age} Years Old
                 </li>
                 <li>
-                    <span className="title"> Email </span> {email}
+                    <span className="title"> Email </span> <a href={`mailto:${email}?subject=Job Offer`}>{email}</a>
                 </li>
                 <li>
                     <span className="title"> Skype </span> {skype}

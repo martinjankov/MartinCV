@@ -1,13 +1,14 @@
 import React from 'react';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Scrollchor from 'react-scrollchor';
 
 import './Banner.css';
 import { SocialIcon } from '..';
 
-export const Banner = ({imgUrl, userName, shortDescription}) => {
+export const Banner = ({ imgUrl, userName, shortDescription }) => {
     return (
         <section id="home" className="banner-15 style-1 rel gradients">
-            <img src={imgUrl} alt=""/>
+            <img src={imgUrl} alt="" />
             <div className="valign-cell">
                 <div className="container">
                     <div className="row">
@@ -17,26 +18,20 @@ export const Banner = ({imgUrl, userName, shortDescription}) => {
                             <Router>
                                 <ul className="social-link dark mb-30">
                                     <li>
-                                        <SocialIcon link='https://www.linkedin.com/in/martinjankov/' icon='fa fa-linkedin'/>
+                                        <SocialIcon link='https://www.linkedin.com/in/martinjankov/' icon='fa fa-linkedin' />
                                     </li>
                                     <li>
-                                        <SocialIcon link='https://twitter.com/mjba_fenix' icon='fa fa-twitter'/>
+                                        <SocialIcon link='https://twitter.com/mjba_fenix' icon='fa fa-twitter' />
                                     </li>
                                     <li>
-                                        <SocialIcon link='https://www.instagram.com/martin.jankov.7/' icon='fa fa-instagram'/>
+                                        <SocialIcon link='https://www.instagram.com/martin.jankov.7/' icon='fa fa-instagram' />
                                     </li>
                                 </ul>
                             </Router>
-                            <Router>
-                                <div>
-                                    <Link to="#about" className="btn btn-lg pink">
-                                        About Me
-                                    </Link>
-                                    <Link to="#" className="btn btn-lg black">
-                                        Hire Me
-                                    </Link>
-                                </div>
-                            </Router>
+                            <div>
+                                <Scrollchor to="#about" className="btn btn-lg pink">About Me</Scrollchor>
+                                <a href="https://www.upwork.com/o/profiles/users/_~01b2011f511052e739/"  rel="noopener noreferrer" target="_blank" className="btn btn-lg black">Hire Me</a>
+                            </div>
                         </div>
                     </div>
                 </div>
