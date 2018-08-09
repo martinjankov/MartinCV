@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Logo.css';
 
-const Logo = ({logoWhite, logoBlack}) => {
+export const Logo = ({logoWhite, logoBlack}) => {
     return (
         <span>
             <img src={logoWhite} alt='' className='logo-white' />
@@ -10,5 +10,3 @@ const Logo = ({logoWhite, logoBlack}) => {
         </span>
     )
 }
-
-export default Logo;

@@ -5,7 +5,7 @@ import { NavbarButton, Logo } from '..';
 
 import './Navigation.css';
 
-const Navigation = () => {
+export const Navigation = () => {
   return (
 
     <div id="materialize-menu" className="">
@@ -18,10 +18,10 @@ const Navigation = () => {
           <Scrollchor to="#skills">Skills</Scrollchor>
         </li>
         <li>
-          <Scrollchor to="#portfolio">Portfolio</Scrollchor>
+          <Scrollchor to="#services">Services</Scrollchor>
         </li>
         <li>
-          <Scrollchor to="#contact">Contact</Scrollchor>
+          <Scrollchor to="#portfolio">Portfolio</Scrollchor>
         </li>
         <li className="scrollable-fix"></li>
       </ul>
@@ -29,5 +29,3 @@ const Navigation = () => {
 
   )
 }
-
-export default Navigation;

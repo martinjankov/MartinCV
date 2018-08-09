@@ -1,0 +1,20 @@
+.page-scroll.back-top {
+    background: #4939bf none repeat scroll 0 0;
+    bottom: 15px;
+    color: #fff;
+    height: 35px;
+    line-height: 35px;
+    position: fixed;
+    right: 15px;
+    text-align: center;
+    width: 35px;
+    display: none;
+}
+
+.page-scroll.back-top.hide-scroll {
+    display: none;
+}
+
+.page-scroll.back-top.show-scroll {
+    display: block;
+}

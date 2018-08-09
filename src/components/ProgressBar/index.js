@@ -4,7 +4,7 @@ import './ProgressBar.css';
 
 export const ProgressBar = ({percentage, title, label = false}) => {
     return (
-        <div className="col-lg-2 col-md-2 col-sm-4 col-xs-12">
+        <div className="col-lg-3 col-md-3 col-sm-4 col-xs-12">
             <div className={`c100 p${percentage}`}>
             <span>{percentage}%</span>
             <div className="slice">

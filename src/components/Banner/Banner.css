@@ -101,3 +101,9 @@
     padding-bottom: 100px;
     padding-top: 100px;
 }
+
+@media screen and (max-width: 640px) {
+    .banner-15 a.btn.pink {
+        margin-bottom: 10px;
+    }
+}

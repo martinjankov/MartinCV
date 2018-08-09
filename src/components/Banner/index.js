@@ -30,7 +30,7 @@ export const Banner = ({ imgUrl, userName, shortDescription }) => {
                             </Router>
                             <div>
                                 <Scrollchor to="#about" className="btn btn-lg pink">About Me</Scrollchor>
-                                <a href="https://www.upwork.com/o/profiles/users/_~01b2011f511052e739/"  rel="noopener noreferrer" target="_blank" className="btn btn-lg black">Hire Me</a>
+                                <a href="https://www.upwork.com/o/profiles/users/_~01b2011f511052e739/"  rel="noopener noreferrer" target="_blank" className="btn btn-lg black">Hire Me on Upwork</a>
                             </div>
                         </div>
                     </div>

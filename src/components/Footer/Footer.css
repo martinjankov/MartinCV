@@ -1,0 +1,14 @@
+footer {
+    background: #6050d6 none repeat scroll 0 0;
+}
+
+.secondary-footer {
+    background: #6757dd none repeat scroll 0 0;
+    color: #fff;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.secondary-footer a {
+    color: #fff;
+}

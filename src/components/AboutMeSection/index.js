@@ -29,7 +29,7 @@ export const AboutMeSection = () => {
                     <p>I also love Astronomy and I have my own site ( <a href='https://www.cosmic-knowledge.com' rel="noopener noreferrer" target='_blank'>www.cosmic-knowledge.com</a> ) where I post from time to time. Under my hobbies I would list ... hmm ... watching movies, tv shows especially sci-fi, listening to music and working on Cosmic Knowledge.</p>
                     <div className="cta-button">
                       <a href="/cv/cv-martin-jankov.pdf" target='_blank' rel="noopener noreferrer" download className="btn pink mr-20 waves-effect waves-light"><i className="fa fa-file"></i> Download CV</a>
-                      <a href="/" className="btn black waves-effect waves-light" rel="noopener noreferrer"><i className="fa fa-envelope"></i> Get in touch</a>
+                      <a href="mailto:martinjankov7@gmail.com?subject=Job Offer" className="btn black waves-effect waves-light" rel="noopener noreferrer"><i className="fa fa-envelope"></i> Get in touch</a>
                       <a href="https://github.com/martinjankov/" className="btn black waves-effect waves-light" target="_blank" rel="noopener noreferrer"><i className="fa fa-bitbucket"></i> GitHub</a>
                       <a href="https://bitbucket.org/martinjankov7/" className="btn black waves-effect waves-light" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i> BitBucket</a>
                     </div>

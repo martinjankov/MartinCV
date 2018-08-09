@@ -1,0 +1,5 @@
+@media screen and (max-width: 640px) {
+    .title-sec h1 {
+        line-height: 35px;
+    }
+}

@@ -1,0 +1,105 @@
+.portfolio h2 {
+    margin-bottom: 15px;
+}
+
+.portfolio:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.portfolio article {
+    width: 380px;
+    height: auto;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.portfolio article:nth-child(even) {
+    float: right;
+}
+
+.portfolio article .project-image {
+    width: 100%;
+    height: 180px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.portfolio article h3 {
+    margin: 5px auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+.portfolio article .technology {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.portfolio article .company {
+    font-size: 10px;
+    float: right;
+}
+
+.portfolio article .company a {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1440px) {
+    .portfolio article {
+        width: 310px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .portfolio article {
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .portfolio article {
+        width: 460px;
+    }
+    .portfolio {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .portfolio {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+
+    .portfolio article {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .portfolio {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    .portfolio article {
+        float: none;
+        width: 100%;
+        margin: 30px auto;
+    }
+    .portfolio article:nth-child(even) {
+        float: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .portfolio article {
+        width: 300px;
+    }
+}
