@@ -17,7 +17,11 @@ export const ProjectBox = ({ link, image, title, description, companyLink, compa
                         {description}
                     </div>
                     <div className="company">
-                        Worked on project at: <a href={companyLink} target="_blank">{companyName}</a>
+                        Worked on project at: {
+                            companyLink !== '' ? 
+                            <a href={companyLink} target="_blank">{companyName}</a> : 
+                            companyName
+                        }
                     </div>
                 </div>
             </article>

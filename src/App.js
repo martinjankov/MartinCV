@@ -22,10 +22,12 @@ class App extends Component {
             <ProgressBar percentage='75' title='JAVASCRIPT'/>
           </Row>
           <Row label='Frameworks'>
-            <ProgressBar percentage='60' title='LARAVEL 5'/>
+            <ProgressBar percentage='80' title='LARAVEL 5'/>
             <ProgressBar percentage='80' title='JQUERY'/>
             <ProgressBar percentage='40' title='REACT JS'/>
             <ProgressBar percentage='35' title='REACT NATIVE'/>
+            <ProgressBar percentage='65' title='ANGULAR 2+'/>
+            <ProgressBar percentage='65' title='IONIC 3+'/>
           </Row>
           <Row label='CMS'>
             <ProgressBar percentage='90' title='WORDPRESS'/>
@@ -94,6 +96,13 @@ class App extends Component {
             description="Laravel, Payment Gateway, Git"
             companyLink="http://www.cosmicdevelopment.com"
             companyName="Cosmic Development"/>
+          <ProjectBox 
+            title="Cosmic Knowledge" 
+            link="https://www.cosmic-knowledge.com/" 
+            image="/images/projects/cosmic-knowledge.png"
+            description="PHP, Wordpress, Wordpress Themes, Wordpress Plugins, HTML, CSS, Javascript, jQuery, Git"
+            companyLink=""
+            companyName="Private Project"/>
         </PortfolioSection>
         <Footer>
           <ScrollTop />
