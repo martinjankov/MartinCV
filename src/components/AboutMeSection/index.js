@@ -15,7 +15,7 @@ export const AboutMeSection = () => {
                     profileImg='/images/martinjankov.jpg'
                     name='Martin Jankov'
                     workPosition='Web Developer'
-                    age='27'
+                    age='28'
                     email='martinjankov7@gmail.com'
                     skype='martin.jankov7'
                     degree='Bachelor of Science (BS)'/>

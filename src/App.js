@@ -24,10 +24,10 @@ class App extends Component {
           <Row label='Frameworks'>
             <ProgressBar percentage='80' title='LARAVEL 5'/>
             <ProgressBar percentage='80' title='JQUERY'/>
-            <ProgressBar percentage='40' title='REACT JS'/>
-            <ProgressBar percentage='35' title='REACT NATIVE'/>
-            <ProgressBar percentage='65' title='ANGULAR 2+'/>
-            <ProgressBar percentage='65' title='IONIC 3+'/>
+            <ProgressBar percentage='75' title='REACT JS'/>
+            <ProgressBar percentage='75' title='REACT NATIVE'/>
+            <ProgressBar percentage='85' title='ANGULAR 2+'/>
+            <ProgressBar percentage='85' title='IONIC 3+'/>
           </Row>
           <Row label='CMS'>
             <ProgressBar percentage='90' title='WORDPRESS'/>
@@ -46,8 +46,8 @@ class App extends Component {
             <ProgressBar percentage='80' title='BOOTSTRAP'/>
           </Row>
           <Row label='Server'>
-            <ProgressBar percentage='50' title='Apache, nginx'/>
-            <ProgressBar percentage='50' title='DigitalOcean (Apache, nginx)'/>
+            <ProgressBar percentage='60' title='Apache, nginx'/>
+            <ProgressBar percentage='60' title='DigitalOcean (Apache, nginx)'/>
           </Row>
           <Row label='Tracking Tools'>
             <ProgressBar percentage='99' title='JIRA'/>
@@ -57,7 +57,7 @@ class App extends Component {
         </SkillsSection>
         <ServicesSection>
           <ServiceBox title="Back-End Development" icon="lnr-cog" description="PHP, Laravel 5, Wordpress, Wordpress Themes, Wordpress Plugins"/>
-          <ServiceBox title="Front-End Development" icon="lnr-code" description="Javascript, jQuery, React JS"/>
+          <ServiceBox title="Front-End Development" icon="lnr-code" description="Javascript, jQuery, React JS, React Native, Angular 2+, Ionic 3+"/>
           <ServiceBox title="Web Design" icon="lnr-pencil" description="CSS3, SASS, Bootstrap"/>
         </ServicesSection>
         <PortfolioSection description="Some of the projects I have worked on over the years. For more please check my CV and LinkedIn profile">
@@ -97,12 +97,12 @@ class App extends Component {
             companyLink="http://www.cosmicdevelopment.com"
             companyName="Cosmic Development"/>
           <ProjectBox 
-            title="Cosmic Knowledge" 
-            link="https://www.cosmic-knowledge.com/" 
-            image="/images/projects/cosmic-knowledge.png"
-            description="PHP, Wordpress, Wordpress Themes, Wordpress Plugins, HTML, CSS, Javascript, jQuery, Git"
-            companyLink=""
-            companyName="Private Project"/>
+            title="mietMatcher" 
+            link="https://www.mietmatcher.de/index-en.html" 
+            image="/images/projects/mietmatcher.png"
+            description="Mobile application and desktop dashboard for the application. Ionic 3, Angular 6, SASS"
+            companyLink="https://www.intertec.io/"
+            companyName="Intertec - Product Development Company"/>
         </PortfolioSection>
         <Footer>
           <ScrollTop />

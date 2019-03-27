@@ -9,7 +9,7 @@ export const Footer = ({children}) => {
             <div className="secondary-footer brand-bg darken-2">
                 <div className="container text-center">
                     <span className="copy-text">
-                        Copyright &copy; 2018 &nbsp; All Rights Reserved
+                        Copyright &copy; {new Date().getFullYear()} &nbsp; All Rights Reserved
                     </span>
                 </div>
             </div>
