@@ -18,36 +18,36 @@ class App extends Component {
         <AboutMeSection />
         <SkillsSection>
           <Row label='Programming Languages'>
-            <ProgressBar percentage='90' title='PHP'/>
-            <ProgressBar percentage='75' title='JAVASCRIPT'/>
+            <ProgressBar percentage='95' title='PHP'/>
+            <ProgressBar percentage='90' title='JAVASCRIPT'/>
           </Row>
           <Row label='Frameworks'>
             <ProgressBar percentage='80' title='LARAVEL 5'/>
-            <ProgressBar percentage='80' title='JQUERY'/>
+            <ProgressBar percentage='95' title='JQUERY'/>
             <ProgressBar percentage='75' title='REACT JS'/>
             <ProgressBar percentage='75' title='REACT NATIVE'/>
             <ProgressBar percentage='85' title='ANGULAR 2+'/>
             <ProgressBar percentage='85' title='IONIC 3+'/>
           </Row>
           <Row label='CMS'>
-            <ProgressBar percentage='90' title='WORDPRESS'/>
+            <ProgressBar percentage='99' title='WORDPRESS'/>
           </Row>
           <Row label='Databases'>
-            <ProgressBar percentage='60' title='MYSQL'/>
+            <ProgressBar percentage='85' title='MYSQL'/>
           </Row>
           <Row label='Version Control'>
-            <ProgressBar percentage='70' title='GIT'/>
-            <ProgressBar percentage='70' title='GITHUB'/>
-            <ProgressBar percentage='70' title='BITBUCKET'/>
+            <ProgressBar percentage='85' title='GIT'/>
+            <ProgressBar percentage='85' title='GITHUB'/>
+            <ProgressBar percentage='85' title='BITBUCKET'/>
           </Row>
           <Row label='Style'>
-            <ProgressBar percentage='65' title='CSS3'/>
-            <ProgressBar percentage='65' title='SASS'/>
-            <ProgressBar percentage='80' title='BOOTSTRAP'/>
+            <ProgressBar percentage='90' title='CSS3'/>
+            <ProgressBar percentage='90' title='SASS'/>
+            <ProgressBar percentage='95' title='BOOTSTRAP'/>
           </Row>
           <Row label='Server'>
-            <ProgressBar percentage='60' title='Apache, nginx'/>
-            <ProgressBar percentage='60' title='DigitalOcean (Apache, nginx)'/>
+            <ProgressBar percentage='80' title='Apache, nginx'/>
+            <ProgressBar percentage='80' title='DigitalOcean (Apache, nginx)'/>
           </Row>
           <Row label='Tracking Tools'>
             <ProgressBar percentage='99' title='JIRA'/>
